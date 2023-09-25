@@ -18,7 +18,6 @@ function App() {
       <Header />
       <Hero />
       <Offer />
-      {/* <Product /> */}
       <MultiBankMobile />
       <Deposit />
       <Questions />
