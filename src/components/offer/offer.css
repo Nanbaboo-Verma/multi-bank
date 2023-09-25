@@ -1,0 +1,95 @@
+.offer-outer-container {
+  /* border: 2px solid red; */
+  margin: 5% auto;
+  /* width: 95%; */
+}
+.offer-inner-container {
+  /* border: 2px solid rgb(0, 255, 200); */
+  text-align: center;
+  width: 100%;
+}
+.great-offer-for-great-experience-container {
+  color: #00a775;
+  font-size: 20px;
+  line-height: 26.1px;
+  font-weight: 500;
+  font-family: sans-serif;
+  /* border: 2px solid rgb(0, 153, 255); */
+  padding-bottom: 15px;
+}
+.choose-what-right-for-you-container {
+  /* border: 2px solid rgb(0, 153, 255); */
+  padding-bottom: 5%;
+}
+.choose-what-right-for-you {
+  color: #212121;
+  font-size: 48px;
+  line-height: 55.2px;
+  font-weight: 500;
+}
+.offer-items-container {
+  display: flex;
+  /* border: 2px solid rgb(255, 0, 106); */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.offer-items {
+  /* border: 2px solid rgb(0, 26, 255); */
+  padding: 47px 47px;
+}
+.offer-items:not(:last-child) {
+  border-right: 1px solid rgb(212, 212, 212);
+}
+.offer-items-content-container {
+  display: flex;
+  align-items: center;
+}
+.offer-icons {
+  font-size: 75px;
+  color: #00a775;
+  margin-bottom: 15px;
+}
+.offer-items-content {
+  font-size: 25px;
+  font-weight: bold;
+}
+.offer-items-content:hover {
+  color: #00a775;
+  cursor: pointer;
+}
+.offer-arrow-icon:hover {
+  color: #16705a;
+  cursor: pointer;
+}
+.offer-arrow-icon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #00a775;
+}
+/* offer-bottom-border */
+.offer-bottom-border {
+  border-bottom: 1px solid silver;
+}
+
+@media screen and (max-width: 1024px) {
+  .offer-items {
+    width: 36%;
+  }
+  .offer-items-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .offer-items {
+    width: 37%;
+    margin: auto;
+  }
+  .offer-bottom-border {
+    border: none;
+  }
+  .choose-what-right-for-you {
+    font-size: 30px;
+  }
+}

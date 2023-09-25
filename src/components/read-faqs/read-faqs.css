@@ -1,0 +1,24 @@
+.read-container {
+  text-align: center;
+  width: 95%;
+}
+.questions-about-services {
+  color: #61646a;
+  font-size: 17px;
+  line-height: 28.05px;
+  font-weight: 400;
+}
+.read-button-container {
+  padding: 45px 0px;
+}
+.read-button {
+  background-color: #02a674;
+  padding: 18px 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.read-button:hover {
+  cursor: pointer;
+  background-color: #16705a;
+}

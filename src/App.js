@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Fixed from "./components/fixed/fixed";
+import Footer from "./components/footer/footer";
+import Header from "./components/header/header";
+import Hero from "./components/hero/hero";
+import Offer from "./components/offer/offer";
+import Product from "./components/product/product";
+import Map from "./components/map/map";
+import Questions from "./components/question/questions";
+import ReadFaqs from "./components/read-faqs/read-faqs";
+import MultiBankMobile from "./components/multiBank Mobile/multibankmobile";
+import Deposit from "./components/Deposit/deposit";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Fixed />
+      <Header />
+      <Hero />
+      <Offer />
+      {/* <Product /> */}
+      <MultiBankMobile />
+      <Deposit />
+      <Questions />
+      <ReadFaqs />
+      <Map />
+      <Footer />
+    </>
   );
 }
 

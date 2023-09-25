@@ -1,0 +1,97 @@
+.multi-bank-mobile-container {
+  /* border: 2px solid red; */
+  margin-top: 6%;
+}
+
+.multi-bank-mobile-content-inner-container {
+  /* border: 2px solid rgb(0, 132, 255); */
+  width: 70%;
+  margin: 15% auto;
+}
+.operate-your-accounts {
+  color: #16705a;
+  font-size: 18px;
+  line-height: 26.1px;
+  font-weight: 500;
+}
+.multiBank-mobile {
+  padding: 10px 0px;
+  color: #212121;
+  font-size: 48px;
+  line-height: 55.2px;
+  font-weight: 500;
+}
+.multiBank-mobile-para-conatiner {
+  padding: 20px 0px;
+}
+.multiBank-mobile-para {
+  color: #61646a;
+  font-size: 17px;
+  line-height: 28.05px;
+  font-weight: 400;
+  text-align: justify;
+}
+.download-container {
+  /* border: 2px solid rgb(0, 132, 255); */
+  margin-top: 2%;
+}
+.download-app {
+  background-color: #02a674;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 22px 50px;
+}
+.download-app:hover {
+  background-color: #16705a;
+}
+
+.learn-more-container {
+  /* border: 2px solid rgb(0, 132, 255); */
+  margin-left: 25px;
+}
+.learn-more-container:hover {
+  cursor: pointer;
+}
+.learn-more {
+  color: #61646a;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  /* line-height: 28.05px;
+  font-weight: 400; */
+}
+.learn-more-icon-arrow {
+  padding-left: 10px;
+  color: #16705a;
+  border-radius: 50%;
+  font-size: 25px;
+}
+/* image */
+.multi-bank-mobile-image-container {
+  height: 530px;
+  width: 1500px;
+  /* border: 2px solid royalblue; */
+}
+.multi-bank-mobile-image {
+  background-image: url("https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/home-3.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .multi-bank-mobile-content-inner-container {
+    width: 100%;
+    margin: 2rem auto;
+    /* margin-top: 0px; */
+  }
+  .multi-bank-mobile-image-container {
+    width: 100%;
+  }
+  .multi-bank-mobile-container {
+    display: block;
+  }
+}

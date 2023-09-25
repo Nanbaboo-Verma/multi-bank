@@ -1,0 +1,35 @@
+.card-fixed-container {
+  /* border: 2px solid red; */
+  width: 6%;
+  position: fixed;
+  top: 90px;
+  right: 0px;
+}
+.card-fixed-container:hover {
+  cursor: pointer;
+}
+.demo-container,
+.buy-now-container {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px;
+}
+.demo-container {
+  background-color: rgb(31, 74, 218);
+  margin-bottom: 10px;
+}
+.buy-now-container {
+  background-color: rgb(43, 139, 56);
+}
+.buy-now-icon,
+.demo-icon {
+  font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+  .card-fixed-container {
+    display: none;
+  }
+}

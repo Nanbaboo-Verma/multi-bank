@@ -1,0 +1,234 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header-outer-container {
+  /* border: 2px solid rgb(0, 17, 255); */
+  /* border-bottom: 2px solid silver; */
+}
+.header-inner-container {
+  /* border: 2px solid rgb(187, 255, 0); */
+}
+/* header top section */
+.header-top-section {
+  /* border: 2px solid rgb(255, 8, 0); */
+  background-color: #16705a;
+}
+.header-top-inner-section {
+  /* border: 2px solid rgb(43, 255, 0); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-button-section-left {
+  display: flex;
+}
+/*Header button */
+.header-button-container {
+  /* border: 2px solid rgb(0, 81, 255); */
+  padding: 15px;
+}
+
+.header-button-container:hover {
+  background-color: white;
+}
+.header-button:hover {
+  color: #16705a;
+}
+.header-button {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.header-button-section-right {
+  display: flex;
+  /* border: 2px solid rgb(0, 81, 255); */
+}
+/* Location */
+.header-right-button-container {
+  display: flex;
+  color: white;
+  /* border: 2px solid rgb(0, 81, 255); */
+}
+.location-container {
+  /* border: 2px solid rgb(51, 255, 0); */
+}
+.location-content {
+  font-size: 12px;
+  padding: 0px 10px;
+}
+.phone-content {
+  font-size: 12px;
+  padding: 0px 0px 0px 5px;
+}
+/*header-bottom-section   sub heasding*/
+.header-bottom-section {
+  /* border: 2px solid rgb(0, 204, 255); */
+
+  box-shadow: 0 5px 5px -5px #adadad;
+}
+.sub-heading-container {
+  /* border: 2px solid rgb(94, 255, 0); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  height: 100px;
+}
+
+.sub-heading-nav-conatainer {
+  display: flex;
+  /* border: 2px solid rgb(12, 12, 12); */
+}
+.sub-heading-nav-content {
+  display: flex;
+  /* border: 2px solid rgb(0, 255, 34); */
+}
+.sub-heading-nav-content-list {
+  /* border: 2px solid rgb(34, 30, 30); */
+  padding: 20px;
+}
+.sub-heading-nav-content li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.sub-heading-help-container {
+  /* border: 2px solid rgb(34, 30, 30); */
+  padding: 20px 50px;
+  background-color: #16705a;
+}
+.sub-heading-search-icon-container {
+  padding: 20px 0px 20px 20px;
+  /* border: 2px solid rgb(34, 30, 30); */
+}
+.sub-heading-search-icon-container:hover {
+  color: #00a775;
+  cursor: pointer;
+}
+.bars,
+.slide-bar {
+  display: none;
+}
+.header-home {
+  color: #00a775;
+}
+.header-contacts,
+.header-blog,
+.header-services {
+  color: black;
+}
+.header-help-me-decide {
+  color: white;
+}
+.bars {
+  display: block;
+  padding: 0px 20px;
+  font-size: 40px;
+  color: #16705a;
+}
+.bars-button {
+  border: none;
+  outline: none;
+  background-color: white;
+}
+.bars-button-close {
+  background: green;
+  outline: none;
+  padding: 5px 12px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-left: 80%;
+}
+.open-slide-bar {
+  width: 40%;
+  border: 1px solid silver;
+  background-color: white;
+}
+.slide-services-all {
+  text-align: center;
+  line-height: 40px;
+}
+.login-register-container {
+  text-align: center;
+  padding: 10px;
+}
+.login,
+.register {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 2px;
+}
+.login {
+  background-color: green;
+  margin-right: 10px;
+}
+.register {
+  background-color: rgb(2, 24, 2);
+}
+/* Search */
+.search {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+}
+.searchTerm {
+  width: 100%;
+  border: 1px solid silver;
+  border-right: none;
+  padding: 7px;
+  height: 20px;
+
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  background: green;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.wrap {
+  width: 80%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Bars */
+@media screen and (max-width: 1024px) {
+  .sub-heading-nav-conatainer {
+    display: none;
+  }
+  .location-and-mail-container {
+    display: none;
+  }
+  .phone-content-responsive {
+    display: block;
+    color: white;
+    padding: 0px 20px;
+    font-size: 15px;
+  }
+
+  .slide-bar {
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .phone-content-responsive {
+    display: none;
+  }
+}

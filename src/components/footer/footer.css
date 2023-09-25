@@ -1,0 +1,129 @@
+.footer-outer-container {
+  background-color: #16705a;
+  padding: 65px 30px;
+}
+.footer-inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid black; */
+  width: 95%;
+  justify-content: space-between;
+}
+.footer-all-container {
+  display: flex;
+  width: 60%;
+  /* border: 2px solid black; */
+}
+/* multi-bank-footer-container */
+.multi-bank-footer-container {
+  width: 25%;
+}
+.multi-bank-footer-content {
+  font-size: 17px;
+  line-height: 28.05px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 30px 0px;
+}
+/* footer-social-conatiner */
+.footer-social-conatiner {
+  display: flex;
+}
+.facebook,
+.instagram,
+.youtube,
+.twitter {
+  padding: 15px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+  text-align: center;
+  color: #02a172;
+}
+.facebook:hover {
+  background-color: #02a172;
+  cursor: pointer;
+  color: white;
+}
+.instagram:hover {
+  background-color: #02a172;
+  cursor: pointer;
+  color: white;
+}
+.youtube:hover {
+  background-color: #02a172;
+  cursor: pointer;
+  color: white;
+}
+.twitter:hover {
+  background-color: #02a172;
+  cursor: pointer;
+  color: white;
+}
+
+/* information-container */
+h3 {
+  font-size: 28px;
+  line-height: 36.4px;
+  font-weight: 500;
+  color: white;
+}
+
+.information-content,
+.services-content,
+.help-content {
+  /* border: 2px solid red; */
+  padding: 50px 0px;
+  font-weight: 400;
+}
+.information,
+.services,
+.help {
+  font-size: 17px;
+  display: block;
+  color: white;
+  line-height: 28.05px;
+  font-weight: 400;
+}
+.information-container,
+.services-container,
+.help-container {
+  width: 100%;
+}
+
+/*footer copy right */
+.footer-copy-right-container {
+  background-color: #00a775;
+  padding: 25px 30px;
+  color: white;
+}
+
+/* footer */
+@media screen and (max-width: 1024px) {
+  .footer-outer-container {
+    display: block;
+  }
+  .multi-bank-footer-container {
+    width: 100%;
+  }
+  .footer-all-container {
+    width: 100%;
+    margin-top: 3%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .multi-bank-footer-container {
+    text-align: center;
+  }
+  .footer-all-container {
+    display: block;
+    text-align: center;
+  }
+  .multi-bank-footer-content {
+    font-size: 13px;
+  }
+  .footer-social-conatiner {
+    display: flex;
+    justify-content: center;
+  }
+}

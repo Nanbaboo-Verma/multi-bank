@@ -1,0 +1,186 @@
+.hero-outer-container {
+  /* border: 2px solid red; */
+  margin-top: 3%;
+}
+.hero-inner-container {
+  /* border: 2px solid rgb(0, 255, 0); */
+  display: flex;
+  justify-content: space-between;
+}
+/* hero-left-container */
+.hero-left-inner-container {
+  display: flex;
+  /* border: 2px solid rgb(197, 27, 27); */
+  justify-content: space-between;
+  width: 45%;
+}
+.hero-left-content-container {
+  /* border: 2px solid rgb(8, 8, 8); */
+  display: flex;
+  justify-content: center;
+}
+.hero-left-content {
+  /* border: 2px solid rgb(177, 58, 58); */
+  margin: 100px 80px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.hero-left-content1 {
+  color: #00a775;
+  font-size: 18px;
+}
+.hero-left-content2 {
+  font-size: 48px;
+  line-height: 55.2px;
+  font-weight: 500;
+}
+.hero-left-content3 {
+  color: #61646a;
+  font-size: 17px;
+  line-height: 28.05px;
+  text-decoration: none solid rgb(97, 100, 106);
+}
+.hero-left-content4 {
+  color: #212121;
+  font-size: 15px;
+  line-height: 26.25px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.hero-left-arrow {
+  color: #16705a;
+  padding: 0px 0px 0px 10px;
+  font-size: 25px;
+}
+.hero-left-image-container {
+  height: 600px;
+  width: 60px;
+  height: 100%;
+  /* border: 2px solid rgb(163, 12, 12); */
+}
+.hero-left-image {
+  background-image: url("https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/line-1.jpg");
+  height: 100%;
+  width: 100%;
+}
+
+/* .hero-left-inner-content-container {
+  display: flex;
+  border: 2px solid rgb(38, 0, 255);
+} */
+
+/* hero-right-container */
+.hero-right-container {
+  display: flex;
+  /* border: 2px solid rgb(38, 0, 255); */
+  width: 55%;
+}
+.hero-right-image-container {
+  height: 600px;
+  /* border: 2px solid red; */
+  width: 670px;
+  height: 100%;
+}
+.hero-right-image {
+  background-image: url("https://multibank.cmsmasters.net/alternative/wp-content/uploads/sites/3/2021/11/home-1.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* content */
+.hero-right-inner-container {
+  /* border: 2px solid rgb(14, 14, 14); */
+  width: 70%;
+  color: white;
+}
+.online-banking-container {
+  /* border: 2px solid rgb(94, 255, 0); */
+  background-color: hsl(162, 100%, 33%);
+  /* padding: 70px 30px; */
+  padding: 62px 40px;
+  /* font-size: 28px; */
+  line-height: 28.05px;
+}
+.latest-news-container {
+  /* border: 2px solid rgb(0, 102, 255); */
+  /* padding: 70px 30px; */
+  padding: 62px 40px;
+  background-color: #16705a;
+}
+.need-help-container {
+  /* border: 2px solid rgb(255, 102, 0); */
+  padding: 21px 30px;
+  text-align: center;
+  background-color: #38c660;
+  font-size: 15px;
+}
+.need-help-container:hover {
+  cursor: pointer;
+}
+
+.more-about,
+.show-blog {
+  color: white;
+  font-size: 15px;
+  line-height: 26.25px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.hero-right-arrow {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.online-banking-heading {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36.4px;
+}
+.hero-right-para-container {
+  font-size: 17px;
+  line-height: 28.05px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-inner-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero-right-container {
+    width: 100%;
+  }
+  .hero-right-inner-container {
+    width: 30%;
+  }
+
+  .hero-left-inner-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero-left-image-container {
+    display: none;
+  }
+  .hero-left-content2 {
+    font-size: 27px;
+  }
+  .hero-right-image-container {
+    height: 610px;
+  }
+  .hero-right-container {
+    display: block;
+  }
+  .hero-right-inner-container {
+    /* display: flex; */
+    width: 100%;
+  }
+  .hero-right-image-container {
+    width: 100%;
+  }
+}
